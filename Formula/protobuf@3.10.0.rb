@@ -2,8 +2,8 @@ class ProtobufAT3100 < Formula
   desc "Protocol buffers (Google's data interchange format)"
   homepage "https://github.com/protocolbuffers/protobuf/"
   url "https://github.com/protocolbuffers/protobuf.git",
-      :tag      => "v3.10.0",
-      :revision => "6d4e7fd7966c989e38024a8ea693db83758944f1"
+      tag:      "v3.10.0",
+      revision: "6d4e7fd7966c989e38024a8ea693db83758944f1"
   head "https://github.com/protocolbuffers/protobuf.git"
 
   depends_on "autoconf" => :build
